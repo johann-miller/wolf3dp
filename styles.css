@@ -1,5 +1,4 @@
 body {
-    font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     display: flex;
     justify-content: center;
@@ -16,14 +15,13 @@ body {
 
 .main-image {
     max-width: 100%;
-    height: auto;
+    height: 10rem;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
 .caption {
     margin-top: 15px;
-    color: #666;
     font-size: 16px;
 }
 
@@ -34,4 +32,8 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+.signature {
+    font-style: italic;
 }
